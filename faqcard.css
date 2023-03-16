@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+   background:  hsl(240, 73%, 65%); 
+   
+}
+
+.mainWhiteDiv{
+    width: 65%;
+    margin-top: 4rem;
+    background-color: rgb(243, 240, 240);
+    border-radius: 10px;
+    padding: 3rem;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgWomanOnlineDesk{
+height:22rem;
+width: 27rem;
+margin-left: -5rem;
+z-index: -1;
+}
+
+header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.headerDiv{
+    width: 45%;
+    
+
+}
+
+p{
+    margin-bottom: 5px;
+ 
+}
+
+.box{
+    position: absolute;
+  left: 153px;
+  width: 8rem;
+  height: 8rem;
+  top: 296px;
+}
