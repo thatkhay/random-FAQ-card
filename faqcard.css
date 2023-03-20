@@ -11,7 +11,9 @@ body{
     display: grid;
     place-items: center;
    background:  hsl(240, 73%, 65%); 
-   
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .mainWhiteDiv{
@@ -25,19 +27,18 @@ body{
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-   
+   background-image: url('../bg-pattern-desktop.svg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left -570px top -270px;
+height: 25rem;
 }
 
 .imgWomanOnlineDesk{
 height:22rem;
 width: 27rem;
 margin-left: -5rem;
-z-index: -1;
-background-image: url('../bg-pattern-desktop.svg');
-background-image: url('../bg-pattern-desktop.svg');
-background-repeat: no-repeat;
 
-background-size: cover;
 }
 
 header{
@@ -63,10 +64,10 @@ p{
 }
 
 .box{
-    position: absolute;
-  left: 153px;
-  width: 8rem;
-  height: 8rem;
-  top: 296px;
- 
+    position: relative;
+  left: 90px;
+  width: 11rem;
+  height: 11rem;
+   top: 75px; 
+ z-index: 1;
 }
