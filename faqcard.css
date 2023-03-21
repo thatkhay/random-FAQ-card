@@ -4,7 +4,8 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 body{
@@ -17,11 +18,11 @@ body{
 }
 
 .mainWhiteDiv{
-    width: 65%;
+    width: 70%;
     margin-top: 4rem;
     background-color: rgb(243, 240, 240);
     border-radius: 10px;
-    padding: 3rem;
+    padding: 8rem;
     padding-left: 0;
     display: flex;
     justify-content: space-between;
@@ -30,44 +31,57 @@ body{
    background-image: url('../bg-pattern-desktop.svg');
 background-repeat: no-repeat;
 background-size: cover;
-background-position: left -570px top -270px;
+background-position: left -550px top -330px;
 height: 25rem;
 }
 
 .imgWomanOnlineDesk{
-height:22rem;
-width: 27rem;
+height: 28rem;
+width: 37rem;
 margin-left: -5rem;
 
 }
 
 header{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
+
 }
 
 h1{
-    font-size: 1rem;
-    margin-bottom: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    font-weight: 400;
 }
 
 .headerDiv{
-    width: 45%;
+    width: 40%;
     
 
 }
 
 p{
     margin-bottom: 5px;
- 
+ color: hsl(237, 12%, 33%);
 }
 
 .box{
     position: relative;
   left: 90px;
-  width: 11rem;
-  height: 11rem;
+  width: 14rem;
+  height: 14rem;
    top: 75px; 
  z-index: 1;
+}
+
+.headDiv{
+    border-bottom: 1px solid hsl(240, 3%, 70%);
+    padding-bottom: 1rem;
+}
+
+.iconHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
